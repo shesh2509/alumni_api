@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ limit: "5mb", extended: true }));
 app.use(express.json());
 app.use(logger("tiny"));
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://alumni-app-beryl.vercel.app/'
 }));
 
 
